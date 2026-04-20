@@ -430,7 +430,6 @@ function renderCases() {
   const header = document.createElement("div");
   const intro = document.createElement("div");
   const introLabel = document.createElement("span");
-  const introText = document.createElement("p");
   const nav = document.createElement("div");
   const prevButton = document.createElement("button");
   const nextButton = document.createElement("button");
@@ -441,7 +440,6 @@ function renderCases() {
   header.className = "cases-carousel-header";
   intro.className = "cases-carousel-intro";
   introLabel.className = "cases-carousel-label";
-  introText.className = "cases-carousel-copy";
   nav.className = "cases-carousel-nav";
   prevButton.className = "cases-arrow";
   nextButton.className = "cases-arrow";
@@ -463,7 +461,7 @@ function renderCases() {
   });
 
   nav.append(prevButton, nextButton);
-  intro.append(introLabel, introText);
+  intro.append(introLabel);
   header.append(intro, nav);
   viewport.appendChild(track);
   carousel.append(header, viewport);
