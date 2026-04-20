@@ -421,7 +421,6 @@ function renderCases() {
 
     emptyCard.className = "case-card case-card-empty reveal";
     title.textContent = "Nenhum case publicado ainda";
-    description.textContent = "Adicione novos itens em cases/cases.js para que eles apareçam aqui automaticamente.";
     emptyCard.append(title, description);
     casesGrid.appendChild(emptyCard);
     return;
@@ -450,7 +449,6 @@ function renderCases() {
   track.className = "cases-track";
 
   introLabel.textContent = "Case archive";
-  introText.textContent = "Navegue pelos estudos com setas ou deixe a rotação automática destacar seus trabalhos.";
   prevButton.type = "button";
   nextButton.type = "button";
   prevButton.dataset.action = "prev";
