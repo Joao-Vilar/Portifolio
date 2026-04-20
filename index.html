@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Portfólio pessoal voltado para segurança ofensiva web, bug hunting e análise ética de vulnerabilidades."
+  >
+  <title>Portfólio | Segurança Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  >
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css?v=9">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header" id="topo">
+      <div class="container header-inner">
+        <a class="brand" href="#hero" aria-label="Ir para o início">
+          <span class="brand-mark">01</span>
+          <span class="brand-text">Security Portfolio</span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" aria-label="Navegação principal">
+          <a href="#sobre">Sobre</a>
+          <a href="#principios">Princípios</a>
+          <a href="#cases">Cases</a>
+          <a href="#habilidades">Habilidades</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Portfólio profissional</p>
+            <h1>João <span class="hero-name-accent">Vilar</span></h1>
+            <p class="hero-subtitle">
+              <span class="subtitle-prefix">Segurança ofensiva web com foco em</span>
+              <span class="dynamic-role" aria-live="polite">
+                <span id="dynamic-role-text">lógica de aplicação</span>
+              </span>
+            </p>
+            <p class="hero-description">
+              Atuação orientada por lógica de aplicação, validação responsável e análise técnica de superfícies
+              reais de ataque com foco em segurança ofensiva web.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#cases">Ver Cases</a>
+              <a class="button button-secondary" href="#contato">Contato</a>
+            </div>
+            <div class="hero-summary">
+              <article class="summary-item">
+                <span class="summary-label">Foco</span>
+                <strong>Segurança ofensiva web</strong>
+              </article>
+              <article class="summary-item">
+                <span class="summary-label">Especialização</span>
+                <strong>Bug Hunting & Análise de Lógica</strong>
+              </article>
+              <article class="summary-item">
+                <span class="summary-label">Princípio</span>
+                <strong>Ética, responsabilidade e melhoria contínua</strong>
+              </article>
+            </div>
+
+            <section class="terminal-card reveal" aria-label="Simulação de terminal de segurança">
+              <div class="terminal-header">
+                <div class="terminal-controls" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="terminal-meta">
+                  <span class="terminal-title" id="terminal-title">Análise de requisição</span>
+                  <span class="terminal-status">live</span>
+                </div>
+              </div>
+              <div class="terminal-body" id="terminal-body" aria-live="polite"></div>
+            </section>
+          </div>
+
+          <aside class="hero-panel reveal">
+            <div class="hero-visual" id="hero-visual">
+              <div class="profile-card">
+                <div class="profile-topline">
+                  <span class="availability-dot"></span>
+                  <span>Disponível</span>
+                </div>
+                <div class="portrait-shell">
+                  <div class="portrait-frame-wrap">
+                    <div class="portrait-frame" id="portrait-frame">
+                      <img
+                        class="portrait-image"
+                        src="Me.png"
+                        alt="Retrato profissional de João Vilar"
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="profile-copy">
+                  <span class="profile-kicker">Sobre mim</span>
+                  <p>Estudante e entusiasta de segurança ofensiva web, focado na identificação de falhas de lógica, controles de acesso inadequados e riscos reais em aplicações web.</p>
+                  <div class="profile-metrics">
+                    <span>Bug Hunting</span>
+                    <span>Web Security</span>
+                    <span>Responsible Disclosure</span>
+                  </div>
+                </div>
+                <blockquote class="profile-quote">
+                  Segurança não é sobre encontrar falhas, é sobre <span>construir confiança.</span>
+                </blockquote>
+              </div>
+
+              <div class="hero-card">
+                <p class="panel-label">Posicionamento</p>
+                <ul class="hero-highlights hero-highlights-compact">
+                  <li>Investigação técnica com contexto de negócio</li>
+                  <li>Documentação objetiva e controle de acesso</li>
+                  <li>Foco em falhas de lógica e comunicação responsável</li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section" id="sobre">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Sobre mim</p>
+            <h2>Segurança ofensiva com disciplina técnica e responsabilidade</h2>
+          </div>
+          <div class="about-card reveal">
+            <p>
+              Minha atuação é direcionada para segurança ofensiva web, com interesse especial em autenticação,
+              autorização, exposição indevida de dados e falhas reais de lógica de aplicação.
+            </p>
+            <p>
+              Busco aprendizado contínuo por meio de estudo estruturado, prática em ambientes controlados e análise
+              criteriosa de vulnerabilidades, sempre com postura ética, profissional e orientada à redução de risco.
+            </p>
+            <p>
+              Valorizo processos responsáveis de validação, comunicação clara e entendimento do impacto prático das
+              falhas, equilibrando profundidade técnica com respeito aos limites autorizados de teste.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="principios">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Princípios profissionais</p>
+            <h2>Base ética para análise, validação e reporte</h2>
+          </div>
+          <div class="principles-grid">
+            <article class="info-card reveal">
+              <h3>Autorização sempre</h3>
+              <p>Testes conduzidos apenas em ambientes permitidos, controlados ou dentro de escopos claramente definidos.</p>
+            </article>
+            <article class="info-card reveal">
+              <h3>Prova mínima</h3>
+              <p>Validação suficiente para demonstrar impacto sem exceder o necessário para comprovação técnica.</p>
+            </article>
+            <article class="info-card reveal">
+              <h3>Divulgação responsável</h3>
+              <p>Comunicação objetiva, anonimizada e alinhada a boas práticas de reporte e mitigação.</p>
+            </article>
+            <article class="info-card reveal">
+              <h3>Ética profissional</h3>
+              <p>Respeito a dados, pessoas, sistemas e limites operacionais em todas as etapas da análise.</p>
+            </article>
+            <article class="info-card reveal">
+              <h3>Aprendizado contínuo</h3>
+              <p>Evolução constante em técnicas, fundamentos web e entendimento de superfícies modernas de ataque.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cases-section" id="cases">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Cases</p>
+            <h2>Estudos técnicos anonimizados com foco em impacto e melhoria</h2>
+          </div>
+          <div class="cases-grid" id="cases-grid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="disclosure">
+        <div class="container">
+          <div class="statement-card reveal">
+            <p class="eyebrow">Responsible Disclosure</p>
+            <p class="statement-text">
+              Todos os testes apresentados neste portfólio foram realizados em ambientes controlados, autorizados ou
+              reportados de forma responsável. Nenhuma informação sensível foi armazenada, compartilhada ou explorada
+              além do necessário para validação das vulnerabilidades.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="habilidades">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Habilidades</p>
+            <h2>Fundamentos e ferramentas aplicadas à segurança web</h2>
+          </div>
+          <div class="skills-grid reveal">
+            <span>HTTP / HTTPS</span>
+            <span>APIs REST</span>
+            <span>Burp Suite</span>
+            <span>DevTools</span>
+            <span>OWASP Top 10</span>
+            <span>Lógica de aplicação</span>
+            <span>Autenticação</span>
+            <span>Controle de acesso</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contato">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Contato</p>
+            <h2>Conexões profissionais e oportunidades</h2>
+          </div>
+          <div class="contact-grid">
+            <a class="contact-card reveal" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+              <span class="contact-label">LinkedIn</span>
+              <strong>Perfil profissional</strong>
+              <p>Networking e oportunidades na área de segurança web.</p>
+            </a>
+            <a class="contact-card reveal" href="https://github.com/" target="_blank" rel="noreferrer">
+              <span class="contact-label">GitHub</span>
+              <strong>Projetos e estudos</strong>
+              <p>Repositórios, anotações técnicas e evolução prática.</p>
+            </a>
+            <a class="contact-card reveal" href="mailto:joaovillar22@gmail.com">
+              <span class="contact-label">Email</span>
+              <strong>joaovillar22@gmail.com</strong>
+              <p>Contato direto para oportunidades e colaboração.</p>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Construído com foco em aprendizado, ética e evolução constante na segurança web.</p>
+      </div>
+    </footer>
+  </div>
+
+  <div class="modal" id="case-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-content">
+      <button class="modal-close" type="button" aria-label="Fechar modal">&times;</button>
+      <div class="modal-hero">
+        <div class="modal-visual">
+          <img class="modal-image" id="modal-image" alt="" hidden>
+          <div class="modal-image-fallback" id="modal-image-fallback">
+            <span class="modal-image-kicker">Case Visual</span>
+            <strong id="modal-image-label">Preview do case</strong>
+          </div>
+        </div>
+        <div class="modal-header">
+          <span class="modal-severity" id="modal-severity"></span>
+          <h3 id="modal-title"></h3>
+          <p id="modal-type"></p>
+        </div>
+      </div>
+      <div class="modal-body">
+        <section class="modal-panel modal-panel-wide">
+          <h4>Resumo</h4>
+          <p id="modal-summary"></p>
+        </section>
+        <section class="modal-panel">
+          <h4>Descrição</h4>
+          <p id="modal-description"></p>
+        </section>
+        <section class="modal-panel">
+          <h4>Impacto</h4>
+          <p id="modal-impact"></p>
+        </section>
+        <section class="modal-panel">
+          <h4>Aprendizado</h4>
+          <p id="modal-learning"></p>
+        </section>
+        <section class="modal-panel">
+          <h4>Recomendações</h4>
+          <p id="modal-recommendations"></p>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <script src="cases/cases.js?v=4"></script>
+  <script src="script.js?v=6"></script>
+</body>
+</html>
